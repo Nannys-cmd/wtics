@@ -1,0 +1,36 @@
+.hero {
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    background-color: #ddf317;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .cta-button:hover {
+    background-color: #b3a700;
+  }
+  

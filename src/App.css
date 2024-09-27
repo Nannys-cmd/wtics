@@ -1,0 +1,228 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #dee204d0);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #d8db1ad5);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Estilo global */
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #1a1a1a;
+  background-image: url('/src/assets/Fondo1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffd700; /* Dorado */
+  font-family: 'Montserrat', cursive;
+  font-weight: 700;
+  font-size: 1.5em; /* Aumentar el tamaño de la fuente */
+  letter-spacing: 0.05em; /* Añadir espacio entre letras */
+}
+
+p, a, button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; /* Fuente más ligera para texto normal */
+  color: #cccccc; /* Gris claro */
+}
+
+button {
+  background-color: #ffd700; /* Dorado */
+  color: #1a1a1a; /* Texto gris oscuro */
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif; /* Nueva fuente */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #e5c100; /* Dorado más oscuro al pasar el mouse */
+  transform: scale(1.05); /* Un pequeño aumento al pasar el mouse */
+}
+
+/* Header */
+header {
+  background-color: #1a1a1a; /* Fondo gris oscuro */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Hero section */
+.hero-section {
+  background-color: #1a1a1a; /* Fondo negro */
+  color: #ffffff; /* Texto blanco */
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* About section */
+.about-section {
+  background-color: #1a1a1a; /* Fondo gris oscuro */
+  color: #ffffff; /* Texto blanco */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Team section */
+.team-section {
+  background-color: #1a1a1a; /* Fondo negro */
+  color: #ffffff; /* Texto blanco */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.team-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Services section */
+.services-section {
+  background-color: #1a1a1a; /* Fondo gris oscuro */
+  color: #ffffff; /* Texto blanco */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.service-card {
+  background-color: #262626; /* Fondo gris oscuro */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  color: #ffffff; /* Texto blanco */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+  border: 1px solid #cccccc;
+}
+
+.service-card h3 {
+  color: #ffd700; /* Dorado */
+}
+
+/* Contact section */
+.contact-section {
+  background-color: #1a1a1a; /* Fondo gris oscuro */
+  color: #ffffff; /* Texto blanco */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #262626; /* Fondo gris oscuro */
+}
+
+.footer-content-left {
+  flex: 1;
+  color: #cccccc; /* Texto gris suave */
+}
+
+.footer-content-right {
+  flex: 1;
+  text-align: right;
+  color: #cccccc; /* Texto gris suave */
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.social-links li a {
+  color: #ffd700; /* Dorado */
+  text-decoration: none;
+}
+
+.social-links li a:hover {
+  color: #e5c100; /* Dorado más oscuro al pasar el mouse */
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .services-section h2 {
+    font-size: 2rem;
+  }
+
+  .service-card {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-content-right {
+    text-align: center;
+    margin-top: 20px;
+  }
+}

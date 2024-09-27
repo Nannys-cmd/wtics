@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000; /* Fondo negro */
+    color:#ffd700; /* Texto dorado */
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo {
+    height: 60px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+  }
+  

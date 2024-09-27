@@ -1,0 +1,31 @@
+/* src/sections/Clients.css */
+.clients {
+    background-color: #1a1a1a; /* Fondo gris oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .clients h2 {
+    color: #ffd700; /* Dorado */
+    margin-bottom: 20px;
+  }
+  
+  .clients-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .clients-logos img {
+    max-width: 150px;
+    height: auto;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+  
+  .clients-logos img:hover {
+    opacity: 1;
+  }
+  

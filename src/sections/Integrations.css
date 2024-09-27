@@ -1,0 +1,34 @@
+/* src/sections/Integrations.css */
+.integrations {
+    background-color: #1a1a1a; /* Fondo gris oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .integrations h2 {
+    color: #ffd700; /* Dorado */
+    margin-bottom: 20px;
+  }
+  
+  .integrations p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .integrations-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .integrations-logos img {
+    max-width: 150px;
+    transition: transform 0.3s ease;
+  }
+  
+  .integrations-logos img:hover {
+    transform: scale(1.1);
+  }
+  
