@@ -1,0 +1,32 @@
+/* src/sections/WebDevelopment.css */
+.web-development {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .web-development h2 {
+    color: #ffd700; /* Dorado */
+    margin-bottom: 20px;
+  }
+  
+  .web-development p {
+    font-size: 1.2rem;
+    color: #cccccc;
+    margin-bottom: 30px;
+  }
+  
+  .web-development ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .web-development ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
